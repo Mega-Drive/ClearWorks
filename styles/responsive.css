@@ -1,0 +1,579 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. 1440px
+2. 1280px
+3. 1199px
+4. 1024px
+5. 991px
+6. 959px
+7. 880px
+8. 768px
+9. 767px
+10. 639px
+11. 479px
+12. 400px
+
+******************************/
+
+/************
+1. 1440px
+************/
+
+@media only screen and (max-width: 1440px)
+{
+	.about_left_image img
+	{
+		width: 90%;
+	}
+}
+
+/************
+2. 1280px
+************/
+
+@media only screen and (max-width: 1280px)
+{
+	.owl_item_content_inner h1
+	{
+		font-size: 72px;
+		letter-spacing: 3px;
+	}
+	.owl_item_content_inner h3
+	{
+		font-size: 20px;
+		margin-top: 20px;
+		width: 50%;
+	}
+	.services_button
+	{
+		width: 200px;
+		font-size: 9px;
+		font-weight: 700;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin-top: 34px;
+	}
+}
+
+/************
+3. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.about_section_description
+	{
+		max-width: 100%;
+	}
+	#video h2
+	{
+		font-size: 72px;
+		font-weight: 100;
+	}
+	#video p
+	{
+		font-size: 14px;
+		line-height: 1.9;
+		margin-top: 23px;
+	}
+	.skill_item_5
+	{
+		padding-left: 160px;
+	}
+	.skill_item_6
+	{
+		padding-right: 160px;
+	}
+	.awards_content h5
+	{
+		margin-bottom: 0px;
+	}
+	.awards_content h5::after
+	{
+		display: none;
+	}
+	.awards_content p
+	{
+		display: none;
+	}
+}
+
+/************
+4. 1024px
+************/
+
+@media only screen and (max-width: 1024px)
+{
+	.nav_container
+	{
+		display: none;
+	}
+	.menu_container
+	{
+		display: block;
+	}
+}
+
+/************
+5. 991px
+************/
+
+@media only screen and (max-width: 991px)
+{
+	.about_short
+	{
+		text-align: center;
+		margin-bottom: 65px;
+		padding-right: 15px;
+	}
+	.about_short_row
+	{
+		margin-bottom: 40px;
+	}
+	.about_image
+	{
+		padding-left: 15px;
+	}
+	.about_image img
+	{
+		width: 100%;
+	}
+	.about_button_container
+	{
+		padding-top: 50px;
+	}
+	#video h2
+	{
+		font-size: 48px;
+		font-weight: 100;
+	}
+	#video p
+	{
+		font-size: 12px;
+		line-height: 1.8;
+		margin-top: 17px;
+		font-weight: 100;
+	}
+	.contact_jump_content
+	{
+		font-size: 24px;
+		width: 100%;
+	}
+	.skill_image
+	{
+		width: 200px;
+		height: 182px;
+	}
+	.skill_item_5
+	{
+		padding-left: 110px;
+	}
+	.skill_item_6
+	{
+		padding-right: 110px;
+	}
+	.skill_item h3
+	{
+		font-size: 20px;
+		margin-top: 10px;
+	}
+	.skills_row:last-child
+	{
+		margin-top: 40px;
+	}
+	.team_item p
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
+/************
+6. 959px
+************/
+
+@media only screen and (max-width: 959px)
+{
+	
+}
+
+/************
+7. 880px
+************/
+
+@media only screen and (max-width: 880px)
+{
+	.owl_item_content_inner h1
+	{
+		font-size: 56px;
+		letter-spacing: 3px;
+	}
+	.owl_item_content_inner h3
+	{
+		font-size: 20px;
+		font-weight: 300;
+		margin-top: 14px;
+		width: 70%;
+	}
+	.services_button
+	{
+		width: 200px;
+		font-size: 9px;
+		font-weight: 700;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin-top: 34px;
+	}
+}
+
+/************
+8. 768px
+************/
+
+@media only screen and (max-width: 768px)
+{
+	.home_social_container
+	{
+		display: none;
+	}
+	.project_item
+	{
+		margin-bottom: 0px;
+	}
+	.project_items
+	{
+		margin-bottom: 60px;
+	}
+	.project_items .col-md-4,
+	.project_items .col-sm-6,
+	.project_items .col-xs-12
+	{
+		padding: 0;
+	}
+	.clear_button_container
+	{
+		/*padding-top: 60px;*/
+	}
+}
+
+/************
+9. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.menu_container
+	{
+		right: 0px;
+	}
+	.logo_container
+	{
+		left: 15px;
+	}
+	.logo
+	{
+		font-family: 'Lato', sans-serif;
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: 700;
+		letter-spacing: 1px;
+		color: #F7F7F7;
+		cursor: pointer;
+	}
+	.logo span
+	{
+		font-family: 'Lato', sans-serif;
+		font-size: 24px;
+		font-weight: 300;
+		letter-spacing: 1px;
+		color: #7c7476;
+	}
+	.logo_container div:last-child
+	{
+		font-family: 'Lato', sans-serif;
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: 11px;
+		color: #7c7476;
+		padding-left: 0px;
+		line-height: 12px;
+	}
+	.carousel_nav
+	{
+		display: none;
+	}
+	.owl_item_content_inner h3
+	{
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.section_title h2
+	{
+		font-size: 36px;
+	}
+	.section_title h4
+	{
+		font-size: 18px;
+	}
+	.section_description
+	{
+		max-width: 100%;
+	}
+	.about_content
+	{
+		padding-top: 60px;
+	}
+	#get_in_touch div
+	{
+		font-size: 18px;
+	}
+	.services_list
+	{
+		margin-top: 30px;
+	}
+	.service_item
+	{
+		padding-top: 30px;
+  		padding-bottom: 30px;
+	}
+	.service_item:hover
+	{
+		background: transparent;
+	}
+	.about_right_image
+	{
+		margin-bottom: 30px;
+	}
+	.about_left_content h3,
+	.about_left_content h2,
+	.about_left_content p,
+	.about_left_content .clear_button
+	{
+		text-align: left;
+	}
+	.about_left_image
+	{
+		position: relative;
+		top: auto;
+		right: auto;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+		height: auto;
+		margin-bottom: 30px;
+	}
+	.about_left_image img
+	{
+		width: 100%;
+	}
+	.skill_image
+	{
+		width: 242px;
+		height: 220px;
+	}
+	.skill_item_5
+	{
+		padding-left: 15px;
+	}
+	.skill_item_6
+	{
+		padding-right: 15px;
+	}
+	.skills_row:last-child
+	{
+		margin-top: 0px;
+	}
+	.skill_item
+	{
+		margin-bottom: 50px;
+	}
+	.skills_row:last-child .skill_item:last-child
+	{
+		margin-bottom: 0px;
+	}
+	.awards_item
+	{
+		margin-bottom: 60px;
+	}
+	.awards_item:last-child
+	{
+		margin-bottom: 0px;
+	}
+	.awards_content h5
+	{
+		margin-bottom: 30px;
+	}
+	.awards_content h5::after
+	{
+		display: block;
+	}
+	.awards_content p
+	{
+		display: block;
+	}
+	.stats_counter_item
+	{
+		margin-bottom: 60px;
+	}
+	.stats_counter_item:last-child
+	{
+		margin-bottom: 16px;
+	}
+	.team_item
+	{
+		margin-bottom: 40px;
+	}
+	.team_item:last-child
+	{
+		margin-bottom: 0px;
+	}
+	.footer_col
+	{
+		margin-bottom: 40px;
+	}
+	.footer_col:last-child
+	{
+		margin-bottom: 0px;
+	}
+	.typeform-widget
+	{
+		display: none;
+	}
+	#typeform_launch_button
+	{
+		display: inline-block;
+	}
+}
+
+/************
+10. 639px
+************/
+
+@media only screen and (max-width: 639px)
+{
+	.owl_item_content_inner h1
+	{
+		font-size: 48px;
+		letter-spacing: 2px;
+	}
+	.owl_item_content_inner h3
+	{
+		font-size: 16px;
+		font-weight: 400;
+		margin-top: 14px;
+	}
+	.services_button
+	{
+		width: 200px;
+		font-size: 9px;
+		font-weight: 700;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin-top: 34px;
+	}
+}
+
+/************
+11. 479px
+************/
+
+@media only screen and (max-width: 479px)
+{
+	p
+	{
+		font-size: 12px;
+	}
+	#slide_1_svg,
+	#slide_2_svg,
+	#slide_3_svg,
+	#slide_4_svg
+	{
+		display: none;
+	}
+	.section_description
+	{
+		font-size: 14px;
+	}
+	#video h2
+	{
+		font-size: 36px;
+	}
+	#video p
+	{
+		font-size: 11px;
+		line-height: 1.8;
+		margin-top: 15px;
+	}
+	#contact_jump h3
+	{
+		font-size: 24px;
+		color: #F7F7F7;
+		margin-bottom: 27px;
+	}
+	.contact_jump_content
+	{
+		font-family: 'ABeeZee', serif;
+		font-size: 14px;
+		color: #F7F7F7;
+		text-align: center;
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 35px;
+	}
+	.footer_logo
+	{
+		float: none;
+	}
+	.footer_social
+	{
+		float: none;
+		padding-left: 0px;
+		padding-top: 20px;
+	}
+	.copyright, .privacy
+	{
+		margin-right: 5px;
+	}
+}
+
+/************
+12. 400px
+************/
+
+@media only screen and (max-width: 400px)
+{
+	.awards_item
+	{
+		margin-bottom: 30px;
+	}
+	.awards_content h5
+	{
+		margin-bottom: 0px;
+	}
+	.awards_content h5::after
+	{
+		display: none;
+	}
+	.awards_content p
+	{
+		display: none;
+	}
+}
