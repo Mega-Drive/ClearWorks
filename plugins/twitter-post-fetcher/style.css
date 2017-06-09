@@ -1,0 +1,142 @@
+/*
+* Example style!
+* You can do whatever the hell you want on your site :-)
+*/
+
+#twitter_fetcher ul
+{
+    margin-bottom: 0px;
+}
+#twitter_fetcher ul li
+{
+    position: relative;
+    list-style:none;
+    overflow:hidden;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+}
+#twitter_fetcher ul li:last-child
+{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#twitter_fetcher ul li::before
+{
+    display: block;
+    position: absolute;
+    padding-top: 0px;
+    top: -5px;
+    left: 0;
+    width: auto;
+    height: auto;
+    color: #CFCFD0;
+    font-family: 'FontAwesome';
+    font-size: 28px;
+    content:'\f081';
+}
+.user
+{
+    float: left;
+    clear:left;
+    margin-right: 8px;
+}
+.user a span:nth-child(2)
+{
+    display: none;
+}
+.user a span
+{
+    color: #A19799;
+}
+.user a span:hover
+{
+    color: #cf1a77;
+}
+.user span span
+{
+    display:block;
+}
+.user::after
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -4px;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 12px;
+    color: #a19799;
+    content: ': ';
+}
+.tweet
+{
+    margin-top: 0px;
+    word-wrap: break-word;
+}
+.tweet a
+{
+    color: #A19799;
+}
+.tweet a:hover
+{
+    color: #cf1a77;
+}
+.timePosted
+{
+    clear: left;
+    margin-top: 0px;
+}
+.timePosted a,
+.timePosted a:visited
+{
+    color: #A19799;
+}
+.timePosted a:hover
+{
+    color: #cf1a77;
+}
+.user img, .user a > span
+{
+    
+}
+.interact
+{
+    margin-top: 5px;
+}
+.interact a
+{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    color: #A19799;
+}
+.interact a:hover
+{
+    color: #cf1a77;
+}
+.user div a span img
+{
+    display: none;
+}
+.media img
+{
+    max-width:250px;
+    max-height:250px;
+}
+#linkage
+{
+    position:fixed;
+    top:0px;
+    right:0px;
+    background-color:#3d3d3d;
+    color:#ffffff;
+    text-decoration:none;
+    padding:5px;
+    width:10%;
+    font-family:arial;
+}
+.tco-hidden
+{
+    display: none;
+}
