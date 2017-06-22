@@ -533,21 +533,6 @@ $(document).ready(function()
     		.addTo(ctrl);
 		});
 
-		// Animate Skills section elements
-
-		var skillsMagic = $('.skills_magic');
-		skillsMagic.each(function()
-		{
-			var ele = $(this);
-			var skillsScene = new ScrollMagic.Scene(
-			{
-				triggerElement:this,
-				triggerHook:'onEnter'
-			})
-			.setTween(TweenMax.from(ele, 1, {y:100, autoAlpha:0, scale:0.5, ease: Circ.easeOut}))
-			.addTo(ctrl);
-		});	
-
 		// Animate awards elements
 
 		var awards = $('.awards_item');
