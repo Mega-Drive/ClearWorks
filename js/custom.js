@@ -487,23 +487,6 @@ $(document).ready(function()
 
     function initScrollMagic()
     {
-
-    	// Animating about section elements
-
-    	var magicUp = $('.magic_up');
-    	magicUp.each(function()
-    	{
-    		var ele = this;
-    		var smScene = new ScrollMagic.Scene(
-	    	{
-	    		triggerElement:ele,
-	    		triggerHook:'onEnter',
-	    		offset:-200
-	    	})
-	    	.setTween(TweenMax.from(ele, 1, {y:200, autoAlpha:0, ease: Circ.easeOut, delay:0.3}))
-	    	.addTo(ctrl);	
-    	});
-
     	// Animate about section image
 
     	var magicRight = $('.magic_right');
@@ -527,21 +510,6 @@ $(document).ready(function()
 		{
 			var ele = $(this);
 			var serviceScene = new ScrollMagic.Scene(
-			{
-				triggerElement:this,
-				triggerHook:'onEnter'
-			})
-			.setTween(TweenMax.from(ele, 1, {y:100, autoAlpha:0, scale:0.5, ease: Circ.easeOut}))
-			.addTo(ctrl);
-		});
-
-		// Animate Project Items
-
-		var projects = $('.project_item');
-		projects.each(function()
-		{
-			var ele = $(this);
-			var projectsScene = new ScrollMagic.Scene(
 			{
 				triggerElement:this,
 				triggerHook:'onEnter'
@@ -580,43 +548,13 @@ $(document).ready(function()
 			.addTo(ctrl);
 		});	
 
-		// Animate Client elements
-
-		var clients = $('.clients_item');
-		clients.each(function()
-		{
-			var ele = $(this);
-			var clientsScene = new ScrollMagic.Scene(
-			{
-				triggerElement:this,
-				triggerHook:'onEnter'
-			})
-			.setTween(TweenMax.from(ele, 1, {y:100, autoAlpha:0, ease: Circ.easeOut}))
-			.addTo(ctrl);
-		});
-
-		// Animate Client elements
+		// Animate awards elements
 
 		var awards = $('.awards_item');
 		awards.each(function()
 		{
 			var ele = $(this);
 			var awardsScene = new ScrollMagic.Scene(
-			{
-				triggerElement:this,
-				triggerHook:'onEnter'
-			})
-			.setTween(TweenMax.from(ele, 1, {y:100, autoAlpha:0, scale:0.5, ease: Circ.easeOut}))
-			.addTo(ctrl);
-		});
-
-		// Animate Team Elements
-
-		var team = $('.team_item');
-		team.each(function()
-		{
-			var ele = $(this);
-			var teamScene = new ScrollMagic.Scene(
 			{
 				triggerElement:this,
 				triggerHook:'onEnter'
