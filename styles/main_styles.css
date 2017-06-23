@@ -492,33 +492,6 @@ p
 {
 	background-image: url(../images/clearworks_background_04.jpg);
 }
-.owl_item_mask
-{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top:0;
-	left:0;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-.owl_item_1_mask
-{
-	background-image: url(../images/clearworks_background_01.png);
-}
-.owl_item_2_mask
-{
-	background-image: url(../images/clearworks_background_02.png);
-}
-.owl_item_3_mask
-{
-	background-image: url(../images/clearworks_background_03.png);
-}
-.owl_item_4_mask
-{
-	background-image: url(../images/clearworks_background_04.png);
-}
 .carousel_nav
 {
 	position: absolute;
