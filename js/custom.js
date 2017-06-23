@@ -12,12 +12,11 @@
 6. Initialize Magnific Popup
 7. Initialize Shuffle
 8. Initialize Buttons
-9. Initialize ScrollMagic
-10. Initialize Google Map
-11. Initialize Twitter Fetcher
-12. Initialize Menu
-13. Initialize ScrollTo
-14. Initialize YouTube Video Background
+9. Initialize Google Map
+10. Initialize Twitter Fetcher
+11. Initialize Menu
+12. Initialize ScrollTo
+13. Initialize YouTube Video Background
 
 
 ******************************/
@@ -44,7 +43,6 @@ $(document).ready(function()
 	initShuffle();
 	initStats();
 	initBtns();
-	initScrollMagic();
 	initGoogleMap();
 	initTwitterFetcher();
 	initMenu();
@@ -136,7 +134,6 @@ $(document).ready(function()
     function initHomeBackground()
     {
 		var homeBcg = $('.owl_item');
-		var homeBcgMask = $('.owl_item_mask');
 		var homeOverlay = $('.owl_item_overlay');
 	 	
 	 	// parallax effect for the home background image
@@ -147,23 +144,6 @@ $(document).ready(function()
 	    })
 	    .setTween(TweenMax.to(homeBcg, 1, {y: '40%', ease:Power0.easeNone}))
 	    .addTo(ctrl);
-
-	    var isFirefox = typeof InstallTrigger !== 'undefined';
-		if(isFirefox)
-		{
-			$('.owl_item_mask').css('display', "none");
-		}
-		else
-		{
-			// parallax effect for the home background overlay (bars)
-		    var homeMaskScene = new ScrollMagic.Scene({
-		        triggerElement: homeBcgMask,
-		        triggerHook: 1,
-		        duration: "100%"
-		    })
-		    .setTween(TweenMax.to(homeBcgMask, 1, {y: '10%', ease:Power0.easeNone}))
-		    .addTo(ctrl);
-		}
 
 	    // changing home overlay opacity
 	    var homeOverlayScene = new ScrollMagic.Scene(
@@ -481,77 +461,7 @@ $(document).ready(function()
 
     /*
 
-	9. Initialize ScrollMagic
-
-    */
-
-    function initScrollMagic()
-    {
-    	// Animate about section image
-
-    	var magicRight = $('.magic_right');
-    	magicRight.each(function()
-    	{
-    		var ele = this;
-    		var smScene = new ScrollMagic.Scene(
-    		{
-    			triggerElement:ele,
-    			triggerHook:'onEnter',
-    			offset:300
-    		})
-    		.setTween(TweenMax.from(ele, 1.5, {x:200, autoAlpha:0, ease: Circ.easeOut}))
-    		.addTo(ctrl);
-    	});
-
-    	// Animating service section elements
-
-		var serviceMagic = $('.service_magic');
-		serviceMagic.each(function()
-		{
-			var ele = $(this);
-			var serviceScene = new ScrollMagic.Scene(
-			{
-				triggerElement:this,
-				triggerHook:'onEnter'
-			})
-			.setTween(TweenMax.from(ele, 1, {y:100, autoAlpha:0, scale:0.5, ease: Circ.easeOut}))
-			.addTo(ctrl);
-		});
-
-		// Animate from left
-
-		var magicLeft = $('.magic_left');
-		magicLeft.each(function()
-		{
-			var ele = this;
-			var leftScene = new ScrollMagic.Scene(
-			{
-				triggerElement:ele,
-				triggerHook:'onEnter'
-			})
-			.setTween(TweenMax.from(ele, 1.5, {x:-200, autoAlpha:0, ease: Circ.easeOut}))
-    		.addTo(ctrl);
-		});
-
-		// Animate awards elements
-
-		var awards = $('.awards_item');
-		awards.each(function()
-		{
-			var ele = $(this);
-			var awardsScene = new ScrollMagic.Scene(
-			{
-				triggerElement:this,
-				triggerHook:'onEnter'
-			})
-			.setTween(TweenMax.from(ele, 1, {y:100, autoAlpha:0, scale:0.5, ease: Circ.easeOut}))
-			.addTo(ctrl);
-		});
-    }
-
-    /*
-
-	10. Initialize Google Map
+	9. Initialize Google Map
 
     */
 
@@ -796,7 +706,7 @@ $(document).ready(function()
 
     /*
 
-	11. Initialize Twitter Fetcher
+	10. Initialize Twitter Fetcher
 
     */
 
@@ -814,7 +724,7 @@ $(document).ready(function()
 
     /*
 
-	12. Initialize Menu
+	11. Initialize Menu
 
     */
 
@@ -940,7 +850,7 @@ $(document).ready(function()
 
 	/*
 
-	13. Initialize ScrollTo
+	12. Initialize ScrollTo
 
 	*/
 
@@ -1000,7 +910,7 @@ $( window ).on("load", function()
 
 	/*
 
-	14. Initialize YouTube Video Background
+	13. Initialize YouTube Video Background
 
 	*/
 
